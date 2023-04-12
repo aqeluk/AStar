@@ -1,34 +1,38 @@
-<div align="center">  
-    <img height="50"src="./src/assets/codux.svg">  
-    <h1><img height="30" src="./src/assets/vite.svg"> Vite template for Codux</h1>
-</div>
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-### A Visual IDE for React Projects
+## Getting Started
 
-Codux is an all-in-one visual development environment. Whether you’re starting a new app, creating components, or editing an existing project, every visual change you make reflects instantly in the code and vice versa. To learn more about Codux, visit our website - [https://www.codux.com/](https://www.codux.com/)
+First, run the development server:
 
-This project was bootstrapped with [`Vite`](https://vitejs.dev).
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
 
-It includes a single React component to start your project with, a sample [`codux.config.json`](codux.config.json) with preconfigured keys, a `package.json` file to describe the project's packages and dependencies, and a folder and component structure to put everything neatly in its place.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- Edit, render and compose apps that make use of **`React`**-based components.
-- Create components with **`TypeScript`**, **`SCSS`** and **`CSS Modules`** support.
-- Visually edit in real-time and in an isolated environment.
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-### Available Scripts
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-In the project directory, you can run:
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-### `npm run build`
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-Build the application in production mode into a folder named `dist`. This folder can be served using any HTTP server.
+## Learn More
 
-### `npm run dev`
+To learn more about Next.js, take a look at the following resources:
 
-Start dev server, aliases: `vite dev`, `vite serve`.\
-Open [http://127.0.0.1:5173/](http://127.0.0.1:5173/) to view it in the browser.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-### `npm run preview`
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-Boots up a local static web server that serves the files from dist at [`http://localhost:4173`](http://localhost:4173) . It's an easy way to check if the production build looks OK in your local environment.
-# littleHands
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
