@@ -1,6 +1,6 @@
 import React from 'react'
-import Hero from '@/components/Hero'
-import PreRegisterForm from '@/components/PreRegisterForm'
+import Hero from '../components/Hero'
+import PreRegisterForm from '../components/PreRegisterForm'
 
 const register = () => {
   return (

@@ -2,7 +2,7 @@ import Content from '../components/Content';
 import MainContent from '../components/MainContent';
 import Head from 'next/head'
 import Hero from  '../components/Hero'
-import HomeContent from '@/components/HomeContent';
+import HomeContent from '../components/HomeContent';
 
 export default function Home() {
   return (

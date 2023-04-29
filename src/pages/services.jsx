@@ -1,7 +1,5 @@
-import Hero from '@/components/Hero'
-import Step from '@/components/Step'
-import Slider from '@/components/Slider'
-import { SliderData } from '@/components/SliderData'
+import Hero from '../components/Hero'
+import Step from '../components/Step'
 import React from 'react'
 
 const services = () => {

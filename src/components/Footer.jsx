@@ -8,15 +8,15 @@ const Footer = () => {
       <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
         <Image
           src="/images/littleHandsLogo.png"
-          alt="Little Hands Childminding Services"
+          alt="A Star Childminding Services"
           width={125}
           height={125}
           className="rounded-full"
         />
-        <span className="ml-3 text-xl">Little Hands Childminding Services</span>
+        <span className="ml-3 text-xl">A Star Childminding Services</span>
       </a>
       <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
-        © {new Date().getFullYear()} Little Hands Childminding — All Rights Reserved
+        © {new Date().getFullYear()} A Star Childminding — All Rights Reserved
       </p>
       <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
         Website by AQEL UK
