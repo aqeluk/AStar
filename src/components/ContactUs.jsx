@@ -15,7 +15,7 @@ const ContactUs = () => {
         <div className="bg-white relative flex flex-wrap py-6 rounded shadow-md">
           <div className="lg:w-1/2 px-6">
             <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">
-              LITTLE WONDERS CHILDCARE
+            A STAR CHILDCARE
             </h2>
             <p className="mt-1">
               Dollis Valley Way, Barnet, EN5 2UQ

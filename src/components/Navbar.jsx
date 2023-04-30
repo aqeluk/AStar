@@ -41,7 +41,7 @@ const Navbar = () => {
         <Link href="/" className="flex items-center" onClick={handleLinkClick}>
           <Image
             src="/images/Header.png"
-            alt="Little Wonders"
+            alt="A Star"
             width={300}
             height={125}
             style={{

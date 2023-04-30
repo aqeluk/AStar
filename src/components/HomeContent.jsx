@@ -8,7 +8,7 @@ const HomeContent = () => {
       <div className="lg:w-4/6 mx-auto">
         <div className="rounded-lg h-[600px] overflow-hidden">
           <Image
-            alt="Little Wonders Childcare"
+            alt="A Star Childcare"
             className="object-cover object-center h-full w-full"
             src="/images/nationalities.jpg"
             width={720}
@@ -22,7 +22,7 @@ const HomeContent = () => {
               <FaChild className="w-10 h-10 text-orange-500" />
             </div>
             <div className="flex flex-col items-center text-center justify-center">
-              <h2 className="font-medium title-font mt-4 text-gray-900 text-lg">Little Wonders Childcare</h2>
+              <h2 className="font-medium title-font mt-4 text-gray-900 text-lg">A Star Childcare</h2>
               <div className="w-12 h-1 bg-orange-500 rounded mt-2 mb-4"></div>
               <p className="text-base">Creating a secure, nurturing, and educational space for children.</p>
             </div>

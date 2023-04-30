@@ -7,7 +7,7 @@ const about = () => {
   return (
     <div>
         <Hero 
-        heading='About The Magic of Little Wonders' 
+        heading='About The Magic of A Star' 
         message='Find out why our children unleash their potential through play, learning and adventure' 
         buttonText="Learn More"
         />

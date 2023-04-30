@@ -7,11 +7,10 @@ const Footer = () => {
     <footer className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
       <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
         <Image
-          src="/images/littleHandsLogo.png"
+          src="/images/logo.png"
           alt="A Star Childminding Services"
           width={125}
           height={125}
-          className="rounded-full"
         />
         <span className="ml-3 text-xl">A Star Childminding Services</span>
       </a>

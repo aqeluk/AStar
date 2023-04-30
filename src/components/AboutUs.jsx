@@ -8,7 +8,7 @@ const AboutUs = () => {
     <div className="container px-5 py-24 mx-auto">
       <div className="flex flex-wrap w-full mb-20 flex-col items-center text-center">
         <h1 className="sm:text-4xl text-3xl font-bold title-font mb-4 text-orange-500">Catering All Ages</h1>
-        <p className="lg:w-1/2 w-full leading-relaxed text-gray-800">At Little Wonders Childcare, our mission is to provide a nurturing and safe environment for your children to explore, learn, and grow.</p>
+        <p className="lg:w-1/2 w-full leading-relaxed text-gray-800">At A Star Childcare, our mission is to provide a nurturing and safe environment for your children to explore, learn, and grow.</p>
       </div>
       <div className="flex flex-wrap -m-4">
         <div className="xl:w-1/3 md:w-1/2 p-4">

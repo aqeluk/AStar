@@ -8,7 +8,7 @@ const MainContent = ({ title, subtitle, imageUrl }) => {
         <div className="relative h-[600px] w-full object-cover object-center rounded">
           <Image
             src={imageUrl}
-            alt="Little Wonders Childcare"
+            alt="A Star Childcare"
             fill="responsive"
             style={{ objectFit: "cover" }}
             className="rounded"

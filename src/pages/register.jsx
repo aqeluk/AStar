@@ -6,7 +6,7 @@ const register = () => {
   return (
     <div>
       <Hero 
-      heading='Pre-Register Your Little Wonders' 
+      heading='Pre-Register Your A Star' 
       message='Start the journey' 
       buttonText = "Let's go"
       />
