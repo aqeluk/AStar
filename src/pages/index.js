@@ -14,7 +14,7 @@ export default function Home() {
         <link rel="icon" href="/logo.ico" />
       </Head>
       <Hero 
-      heading="The Joy of A Star" 
+      heading="The Joy of A Star Childminding" 
       message="Fostering growth and creativity through engaging activities in a nurturing environment"
       buttonText="Explore" />
       <MainContent 

@@ -21,16 +21,13 @@ const Footer = () => {
         Website by AQEL UK
       </p>
       <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-      <a href="https://www.facebook.com/littlehands" className="text-gray-500" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.childcare.co.uk/profile/1579314" className="py-6 text-blue-400" target="_blank" rel="noopener noreferrer">
+          <Image src="/images/childcare-logo.png" alt="Childcare.co.uk" width={22} height={22} />
+        </a>
+        <a href="https://www.facebook.com/profile.php?id=100091878625337" className="text-gray-500" target="_blank" rel="noopener noreferrer">
           <FaFacebookF className="w-5 h-5" />
         </a>
-        <a href="https://www.instagram.com/littlehands" className="ml-3 text-gray-500" target="_blank" rel="noopener noreferrer">
-          <FaInstagram className="w-5 h-5" />
-        </a>
-        <a href="https://www.twitter.com/littlehands" className="ml-3 text-gray-500" target="_blank" rel="noopener noreferrer">
-          <FaTwitter className="w-5 h-5" />
-        </a>
-        <a href="https://www.linkedin.com/company/littlehands" className="ml-3 text-gray-500" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/jamila-popal-801708186" className="ml-3 text-gray-500" target="_blank" rel="noopener noreferrer">
           <FaLinkedin className="w-5 h-5" />
         </a>
       </span>

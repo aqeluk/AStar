@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const MainContent = ({ title, subtitle, imageUrl }) => {
   return (
@@ -23,12 +24,13 @@ const MainContent = ({ title, subtitle, imageUrl }) => {
           {subtitle}
         </p>
         <div className="flex justify-center">
-          <button
-            className="inline-flex text-white bg-orange-500 border-0 py-2 px-6 focus:outline-none hover:bg-orange-600 rounded text-lg"
-            onClick={() => (window.location.href = "/about")}
-          >
-            Learn More
-          </button>
+          <Link href="/about">
+            <button
+              className="inline-flex text-white bg-orange-500 border-0 py-2 px-6 focus:outline-none hover:bg-orange-600 rounded text-lg"
+            >
+              Learn More
+            </button>
+          </Link>
           <button
             className="ml-4 inline-flex text-gray-700 bg-blue-100 border-0 py-2 px-6 focus:outline-none hover:bg-blue-200 rounded text-lg"
             onClick={() => (window.location.href = "#contact")}

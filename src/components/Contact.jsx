@@ -30,21 +30,21 @@ const Contact = () => {
               <CgPhone size={30} className='mr-2 group-hover:mr-0 group-hover:ml-4 transition-all duration-300 ease-in-out' />
               <p className='text-2xl font-bold group-hover:hidden'>Call Us</p>
               <p className='text-orange-500 absolute inset-0 hidden group-hover:flex items-center justify-center group-hover:text-2xl group-hover:font-extrabold'>
-                07477704920
+                +44 74777 04920
               </p>
             </div>
             <div className='group relative flex items-center p-4 border border-gray-300 hover:border-black rounded transition-all duration-300'>
               <MdEmail size={30} className='mr-2 group-hover:mr-0 group-hover:ml-4 transition-all duration-300 ease-in-out' />
               <p className='text-2xl font-bold group-hover:hidden'>Email Us</p>
               <p className='text-orange-500 absolute inset-0 hidden group-hover:flex items-center justify-center group-hover:text-l group-hover:font-extrabold'>
-                mini_nin@hotmail.com
+                AStarChildminding@gmail.com
               </p>
             </div>
             <div className='group relative flex items-center p-4 border border-gray-300 hover:border-black rounded transition-all duration-300'>
               <BsMailbox2 size={30} className='mr-2 group-hover:mr-0 group-hover:ml-4 transition-all duration-300 ease-in-out' />
               <p className='text-2xl font-bold group-hover:hidden'>Visit Us</p>
               <p className='text-orange-500 absolute inset-0 hidden group-hover:flex items-center justify-center group-hover:text-xl group-hover:font-extrabold'>
-               Barnet, EN5 2UA
+               Barnet, EN5 2UQ
               </p>
             </div>
           </div>

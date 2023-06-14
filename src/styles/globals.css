@@ -44,3 +44,14 @@ body {
   animation: slideInRight 1s ease-out forwards;
 }
 
+.fade-in {
+  opacity: 1;
+  transition: opacity 300ms;
+}
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 50ms;
+}
+
+
