@@ -23,6 +23,11 @@ const AboutContent = () => {
           width={500}
           height={300}
           className="object-cover object-center rounded"
+          style={{
+            maxWidth: "100%",
+            height: "auto",
+            width: "auto"
+          }}
         />
       </div>
     </div>

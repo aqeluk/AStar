@@ -22,7 +22,7 @@ const Step = () => {
         </h1>
         <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
           Our experienced childminders provide a safe, nurturing, and
-          educational environment for your children. We prioritize each child's
+          educational environment for your children. We prioritize each child&rsquo;s
           unique needs, ensuring they feel comfortable and secure while in our
           care. Contact us to learn more about our comprehensive childminding
           services and how we can support your family.

@@ -17,7 +17,7 @@ const AboutUs = () => {
               <MdChildFriendly size={24} />
             </div>
             <h2 className="text-lg text-gray-900 font-medium title-font mb-2">Infants</h2>
-            <p className="leading-relaxed text-base">Our infant program provides a warm, secure environment that encourages exploration and growth at each child's own pace.</p>
+            <p className="leading-relaxed text-base">Our infant program provides a warm, secure environment that encourages exploration and growth at each child&rsquo;s own pace.</p>
           </div>
         </div>
         <div className="xl:w-1/3 md:w-1/2 p-4">

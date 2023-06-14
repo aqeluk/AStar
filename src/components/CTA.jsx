@@ -44,7 +44,7 @@ const CTA = () => {
           Embrace the A Star Childcare Experience
         </h1>
         <p className="leading-relaxed mt-4 text-lg">
-          At A Star Childcare, your child's care and education are our utmost priorities. Join our family today and let your little ones delight in the wonders of learning and growing in a nurturing environment.
+          At A Star Childcare, your child&rsquo;s care and education are our utmost priorities. Join our family today and let your little ones delight in the wonders of learning and growing in a nurturing environment.
         </p>
       </div>
       <div className="lg:w-2/6 md:w-1/2 bg-gray-100 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">

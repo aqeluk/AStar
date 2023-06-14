@@ -11,6 +11,11 @@ const Footer = () => {
           alt="A Star Childminding Services"
           width={125}
           height={125}
+          style={{
+            maxWidth: "100%",
+            height: "auto",
+            width: "auto"
+          }}
         />
         <span className="ml-3 text-xl">A Star Childminding Services</span>
       </a>
@@ -21,9 +26,6 @@ const Footer = () => {
         Website by AQEL UK
       </p>
       <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-        <a href="https://www.childcare.co.uk/profile/1579314" className="py-6 text-blue-400" target="_blank" rel="noopener noreferrer">
-          <Image src="/images/childcare-logo.png" alt="Childcare.co.uk" width={22} height={22} />
-        </a>
         <a href="https://www.facebook.com/profile.php?id=100091878625337" className="text-gray-500" target="_blank" rel="noopener noreferrer">
           <FaFacebookF className="w-5 h-5" />
         </a>
@@ -31,6 +33,13 @@ const Footer = () => {
           <FaLinkedin className="w-5 h-5" />
         </a>
       </span>
+        <a href="https://www.childcare.co.uk/profile/1579314" className="px-4 py-6 text-blue-400" target="_blank" rel="noopener noreferrer">
+          <Image src="/images/childcare-logo.png" alt="Childcare.co.uk" width={350} height={100} style={{
+            maxWidth: "100%",
+            height: "auto",
+            width: "auto"
+          }} />
+        </a>
     </footer>
   );
 };

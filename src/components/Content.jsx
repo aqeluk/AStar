@@ -8,7 +8,7 @@ const Content = () => {
           DISCOVER A STAR CHILDCARE
         </h2>
         <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
-          Empowering Your Child's Potential
+          Empowering Your Child&rsquo;s Potential
         </h1>
         <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
         We offer a safe, enjoyable, and stimulating environment where your child can learn and develop. Our dedicated staff is committed to providing top-notch care and support for every child.        
@@ -20,7 +20,7 @@ const Content = () => {
             Safety First
           </h2>
           <p className="leading-relaxed text-base mb-4">
-          Our facility is designed with your child's safety and well-being as our top priority. We enforce strict safety protocols and consistently monitor our premises.
+          Our facility is designed with your child&rsquo;s safety and well-being as our top priority. We enforce strict safety protocols and consistently monitor our premises.
           </p>
         </div>
         <div className="px-8 py-6 bg-white shadow-md">

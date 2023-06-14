@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { FiArrowDown } from "react-icons/fi";
 import { useRouter } from "next/router";
+import Image from "next/image";
 
 const images = [
   "/images/artsandcraft.jpg",
@@ -52,10 +53,12 @@ const Hero = ({ heading, message, buttonText }) => {
   return (
     <div className="relative flex items-center justify-center h-screen mb-12">
       {images.map((image, index) => (
-        <img
+        <Image
           key={index}
           src={image}
           alt=""
+          width={500}
+          height={500}
           className={`w-full h-full object-cover absolute top-0 left-0 opacity-0 transition-opacity duration-500 ease-in-out ${
             currentImageIndex === index && loaded ? "opacity-100" : ""
           }`}

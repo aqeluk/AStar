@@ -7,7 +7,8 @@ module.exports = {
   images: {
     domains: [
       'images.unsplash.com',
-      'dummyimage.com'
+      'dummyimage.com',
+      'pf1.childcare.co.uk'
     ]
   }
 }
