@@ -74,7 +74,7 @@ const Hero = ({ heading, message, buttonText }) => {
               <span
                 key={index}
                 className={`inline-block text-animation transform transition-all duration-500 hover:scale-110 hover:text-gradient transition-delay-[${index *
-                  50}ms] whitespace-nowrap`}
+                  50}ms] ${letter === 'Childminding' ? 'whitespace-nowrap' : ''}`}
                 style={{
                   backgroundImage: "linear-gradient(to right, #FFA726 0%, #FFA726 100%)",
                   backgroundClip: "text",

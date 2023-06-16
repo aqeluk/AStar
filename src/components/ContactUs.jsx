@@ -34,7 +34,7 @@ const ContactUs = () => {
           className="absolute inset-0"
           style={{ filter: 'contrast(1.2) opacity(0.4)' }}
           title="map"
-          src="https://maps.google.com/maps?q=Dollis%20Valley%20Way,%20Barnet,%20EN5%202UQ&t=&z=14&ie=UTF8&iwloc=&output=embed"
+          src="https://maps.google.com/maps?q=Crocus%Field,%20Barnet,%20EN5%202UA&t=&z=14&ie=UTF8&iwloc=&output=embed"
           width="100%"
           height="100%"
         ></iframe>
@@ -44,7 +44,7 @@ const ContactUs = () => {
             A STAR CHILDCARE
             </h2>
             <p className="mt-1">
-              Dollis Valley Way, Barnet, EN5 2UQ
+              Crocus Field, Barnet, EN5 2UA
             </p>
           </div>
           <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
